@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid  ">
+      <img class="me-2" src="https://s.movieinsider.com/images/logo.svg" alt="" width="30">
+      <a class="navbar-brand" href="#">Movie INSIDER</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">This Week</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">2023 Movies</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              In Production
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">2024 Movies</a></li>
+              <li><a class="dropdown-item" href="#">2025 Movies</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">All Release Dates</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Trailers</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Find movies" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class=" main container-fluid row my-5">
+    <img class="col-lg-2 col-md-4 col-sm-6  my-1" src="./651329_m1659007139.jpg" alt="see how">
+    <img class="col-lg-2 col-md-4 col-sm-6  my-1" src="./651001_m1658844648.jpg" alt="superpets">
+    <img class="col-lg-2 col-md-4 col-sm-6  my-1" src="./651685_m1659188618.jpg" alt="vengeance">
+    <img class="col-lg-2 col-md-4 col-sm-6  my-1" src="./652040_m1659385338.jpg" alt="devotion">
+    <img class="col-lg-2 col-md-4 col-sm-6  my-1" src="./652377_m1659554929.jpg" alt="ticket und paradies">
+    <img class="col-lg-2 col-md-4 col-sm-6  my-1" src="./640941_m1652995202.jpg" alt="three thousand years">
+  </div>
+
+
+  <div class="section-films row row-cols-1 row-cols-md-3 g-4 mx-3 ">
+    <div class="col">
+      <div class="card h-100">
+        <img src="./649991_m1658254062.jpg" class="section-images card-img-top w-50" alt="Gigi">
+        <div class="card-body">
+          <h5 class="card-title">Gigi & Nate</h5>
+          <p class="card-text text-secondary">TNate Gibson’s life is turned upside down after he suffers a near-fatal
+            illness and is left a quadriplegic. Moving forward seems impossible until he meets his unlikely service
+            animal, Gigi – a curious and intelligent capuchin monkey – who helps Nate find what he needs most: hope.
+            Inspired by true events.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 30 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./651169_m1658929892.jpg" class="section-images card-img-top w-50" alt="Medieval">
+        <div class="card-body">
+          <h5 class="card-title">Medieval</h5>
+          <p class="card-text text-secondary">Inspired by the true story of Jan Žižka, one of greatest warriors in
+            history. After the death of its emperor, the Holy Roman Empire is plummeting into chaos while feuding Kings
+            battle for control of the empty throne. Daring mercenary leader Jan Žižka is hired to kidnap the powerful
+            Lord Rosenberg's fiancée, Lady Katherine to prevent Rosenberg's rise to power.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 50 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./653058_m1659910872.jpg" class="section-images card-img-top w-50" alt="Sound">
+        <div class="card-body">
+          <h5 class="card-title">Sound of Freedom</h5>
+          <p class="card-text text-secondary ">The story of Tim Ballard, a former US government agent, who quits his job
+            in order to devote his life to rescuing children from global sex traffickers.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 1 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-light d-flex justify-content-between align-items-center">
+    <p>Let's Be Friends</p>
+    <p>USA TODAY • L.A. Times • CBS Detroit • Crains Detroit Business • Corp Magazine</p>
+    <p>Call Us: 248.387.9826 </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div img {
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.main {
+  position: relative;
+  top: 80px;
+}
+
+.section-films {
+  position: relative;
+  top: 80px;
+}
+
+footer {
+  position: relative;
+  top: 180px;
+  height: 5rem;
+  padding: 1rem 2rem;
+}
+
+.main img {
+  transition: 0.3s;
+}
+
+.main img:hover {
+  transform: scale(1.2);
+}
+
+.section-images {
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+.section-images:hover {
+  transform: scale(0.9);
+}
